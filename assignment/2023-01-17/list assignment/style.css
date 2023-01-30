@@ -1,0 +1,18 @@
+ol li ul {
+  font-size: 20px;
+}
+.heading {
+  color: #2e07f1;
+}
+.country {
+  color: rgb(240, 11, 11);
+}
+.district {
+  color: rgb(87, 87, 201);
+}
+.city {
+  color: rgb(179, 7, 7);
+}
+ol .content {
+  color: #f1cb0b;
+}

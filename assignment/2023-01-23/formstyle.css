@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  margin: auto;
+  width: 65%;
+  border: 1px solid black;
+  height: 41rem;
+}
+
+.icon {
+  font-size: 21px;
+}
+.navbar2 {
+  margin-left: 28%;
+}
+.btn,
+.circle,
+.bell,
+.flask {
+  margin-left: 14px;
+}
+.btn {
+  background-color: rgb(224, 214, 214);
+  border-radius: 10px;
+  border: 1px solid rgb(161, 121, 121);
+}
+.upgrade {
+  height: 38px;
+  margin-top: 2px;
+  padding-top: 12px;
+  width: 88px;
+  border-radius: 8px;
+  background-color: blue;
+  color: #fff;
+  font-size: 19px;
+  border: none;
+}
+.btn {
+  width: 21%;
+  height: 39px;
+  border-radius: 5px;
+  font-size: 19px;
+  padding-top: 0px;
+  border: 2px solid #eee2e2;
+  color: grey;
+}
+
+/* second navbar start */
+.navbar3,
+a {
+  width: 80%;
+  margin-left: 15px;
+  margin: 8px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #000;
+}
+/* third content start */
+.main-content {
+  height: 38.5rem;
+  background-color: rgb(238, 128, 84);
+}
+hr {
+  border: 2px solid rgb(224, 208, 208);
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.form {
+  width: 75%;
+  margin: auto;
+  height: 38.5rem;
+  background-color: rgba(214, 77, 8, 0.953);
+}
+h3 {
+  color: white;
+  font-size: 33px;
+  margin: auto;
+  width: 80%;
+  margin-top: 7%;
+}
+.main {
+  width: 64%;
+  color: white;
+  font-size: 18px;
+}
+.first-label {
+  margin-left: 36%;
+}
+.second-label,
+.fourth-label {
+  margin-left: 31%;
+}
+.third-label {
+  margin-left: 28%;
+}
+.fifth-label {
+  margin-left: 18%;
+}
+.form-btn {
+  margin-left: 36%;
+}
+.form-btn,
+.clear-btn {
+  width: 42%;
+  color: rgba(232, 89, 18, 0.953);
+  border-radius: px;
+}
+.create-btn {
+  background: rgb(242, 237, 232);
+  color: rgba(232, 89, 18, 0.953);
+  border-radius: 2px;
+}
+
+input {
+  width: 43%;
+  height: 30px;
+  font-size: 15px;
+  background: rgb(242, 237, 232);
+  border: none;
+}
+#placeholder {
+  width: 50px auto;
+}
+
+.png-img {
+  width: 100%;
+  margin: auto;
+}
+
+h6 {
+  width: 27%;
+  margin-top: -47px;
+  margin-left: 75%;
+}
+.png-img {
+  margin-left: 31px;
+}
+h5 {
+  color: rgb(42, 42, 229);
+  margin-left: 78%;
+}
+.second-footer {
+  height: 50px;
+  background-color: purple;
+}
+
+h4 {
+  width: 30%;
+  margin-left: 39px;
+  margin-top: 20px;
+}

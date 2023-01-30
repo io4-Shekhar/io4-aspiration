@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Form</title>
+    <style>
+      .basic-form {
+        width: 30%;
+        margin: 2px auto;
+        border: 1px solid rgb(136, 10, 10);}
+
+    </style>
+    <style>
+.form{
+    width: 30%;
+    margin: 0px;
+    padding: 0px
+}
+
+    </style>
+  </head>
+  <body>
+    <main>
+        <form>
+    
+      <legend>
+       <center><h1>Basic HTML Form</h1></center>
+        <form action="./action.php" method="get" target="blank" autofocus="on">
+          <fieldset class="basic-form">
+            <legend>name</legend>
+            <label for="first name">first name</label>
+            <input
+              type="text"
+              id="first name"
+              autofocus
+              maxlength="12"
+              minlength="2"
+              placeholder="Enter your first name"
+            />
+            <br/>
+            <br />
+            <label for="last name">last name</label>
+            <input
+              type="text"
+              id="last name"
+              autofocus
+              maxlength="12"
+              minlength="2"
+              placeholder="Enter your last name"
+            />
+          </fieldset>
+          <fieldset class="basic-form">
+            <legend>Other Question</legend>
+            <label for="choose a drink">choose a drink</label>
+            <br />
+            <input type="radio" id="coffee" value="coffee" name="drink" />
+            <label for="coffee">Coffee</label>
+            <br />
+            <input type="radio" id="tea" value="tea" name="drink" />
+            <label for="tea">tea</label>
+            <br />
+            <input
+              type="radio"
+              id="hot chocolate"
+              value="hot chocolate"
+              name="drink"
+            />
+            <label for="hot chocolate">hot chocolate</label>
+            <br />
+            <br />
+
+            <label for="What ice cream do tou like?"
+              >What ice cream do you like?</label
+            >
+            <br />
+            <input
+              type="radio"
+              id="chocolate"
+              value="chocolate"
+              name="ice cream"
+            />
+            <label for="chocolate">chocolate</label>
+            <br />
+            <input
+              type="radio"
+              id="chocolate pudding"
+              value="chocolate pudding"
+              name="ice cream"
+            />
+            <label for="chocolate pudding">chocolate pudding</label>
+            <br />
+            <input
+              type="radio"
+              id="chocolate peanut butter"
+              value="chocolate peanut butter"
+              name="ice cream"
+            />
+            <label for="chocolate peanut butter">chocolate peanut butter</label>
+            <br />
+            <input type="radio" id="vanilla" value="vanilla" name="ice cream" />
+            <label for="vanilla">vanilla</label>
+            <br />
+            <input
+              type="radio"
+              id="strawberry"
+              value="strawberry"
+              name="ice cream"
+            />
+            <label for="strawberry">strawberry</label>
+            <br />
+            <br />
+            <label for="Select a school">Select a school:</label>
+            <br />
+
+            <select name="school" id="school">
+              <option value="select a school">select a school</option>
+              <option value="Mss naaz inter collage">
+                Mss naaz inter collage
+              </option>
+              <option value="Ait inter collage">Ait inter collage</option>
+              <option value="gpic">gpic</option>
+            </select>
+            <br />
+            <br />
+            <label for="Please provide comments"
+              >Please provide comments:</label
+            >
+            <br />
+            <br />
+            <textarea
+              id="comment box"
+              name="comment box"
+              rows="4"
+              cols="50>"
+            ></textarea>
+            <br />
+            <input type="submit" value="submit" />
+        </legend>
+    </form>
+    </main>
+
+  </body>
+</html>
