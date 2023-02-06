@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner</title>
+    <style>
+      .main_div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: skyblue;
+      }
+      .second-div {
+        width: 23%;
+        height: 270px;
+        background: linear-gradient(
+          to right,
+          #0f954b 10%,
+          #087448 100%,
+          #2d01dd 12%
+        );
+        border: none;
+        rotate: 50.5deg;
+        position: absolute;
+        right: 14%;
+        bottom: 18%;
+        border-radius: 20px;
+      }
+
+      .third-div {
+        width: 30%;
+        height: 35px;
+        margin: -12px;
+        background-color: rgb(130, 233, 161);
+        color: red;
+        rotate: 310deg;
+        position: absolute;
+        left: 6%;
+        bottom: 18%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px red;
+      }
+      .text {
+        position: absolute;
+        top: -63%;
+        left: 13%;
+      }
+      .four-div {
+        width: 14%;
+        height: 180px;
+        margin: 1px;
+        background-color: aliceblue;
+        border-color: brown;
+        rotate: 51deg;
+        position: absolute;
+        left: 52%;
+        bottom: 58%;
+        border-radius: 20px;
+        background-image: url("thor.jpeg");
+        box-shadow: 5px 10px 15px black;
+        background-size: 200px 300px;
+      }
+      .five-div {
+        width: 20%;
+        height: 250px;
+        margin: 1px;
+        background-color: aliceblue;
+        border-color: brown;
+        rotate: 51deg;
+        position: absolute;
+        left: 34%;
+        bottom: 31%;
+        border-radius: 20px;
+        background-image: url("Ironman.jpg");
+        z-index: 10;
+        box-shadow: -2px 4px 15px 5px black;
+        background-size: 350px 400px;
+      }
+
+      .six-div {
+        width: 14%;
+        height: 100px;
+        margin: 1px;
+        background: linear-gradient(
+          to right,
+          #077b3b 5%,
+          #04130d 100%,
+          #451ae1 12%
+        );
+        border-color: brown;
+        rotate: 49deg;
+        position: absolute;
+        left: 34%;
+        bottom: 62%;
+        border-radius: 45px;
+      }
+      .seven-div {
+        width: 14%;
+        height: 100px;
+        margin: 1px;
+        background: linear-gradient(
+          to right,
+          #21d65d 23%,
+          #0e7441 10%,
+          #21b88d 100%
+        );
+        border-color: brown;
+        rotate: 140deg;
+        position: absolute;
+        left: 25%;
+        bottom: 34%;
+        border-radius: 45px;
+      }
+
+      .eight-div {
+        width: 20%;
+        height: 250px;
+        margin: 1px;
+        background-color: aliceblue;
+        border-color: brown;
+        rotate: 51deg;
+        position: absolute;
+        left: 48%;
+        bottom: -9%;
+        border-radius: 20px;
+        background-image: url("hulk.gif");
+        background-size: 260px 400px;
+        z-index: 10;
+        box-shadow: -2px 4px 15px 5px black;
+      }
+      .nine-div {
+        width: 44%;
+        height: 100px;
+        margin: 1px;
+        background: linear-gradient(
+          to right,
+          #21d65d 23%,
+          #0e7441 10%,
+          #21b88d 100%
+        );
+        border-color: brown;
+        rotate: 140deg;
+        position: absolute;
+        left: 10%;
+        bottom: 9%;
+        border-radius: 45px;
+      }
+      .ten-div {
+        width: 35%;
+        height: 100px;
+        margin: 1px;
+        background: linear-gradient(
+          to bottom,
+          #14c650 100%,
+          #1b1d1c 10%,
+          #d9e8e4 100%
+        );
+        border-color: brown;
+        rotate: 51deg;
+        position: absolute;
+        left: 50.5%;
+        bottom: -12%;
+        border-radius: 45px;
+      }
+      .eleven-div {
+        width: 14%;
+        height: 100px;
+        margin: 1px;
+        background: linear-gradient(
+          to right,
+          #21d65d 23%,
+          #0e7441 10%,
+          #21b88d 100%
+        );
+        border-color: brown;
+        rotate: 140deg;
+        position: absolute;
+        left: 46%;
+        bottom: -18%;
+        border-radius: 45px;
+      }
+      .twelve-div {
+        width: 30%;
+        height: 70px;
+        border: none;
+
+        background-repeat: no repeat;
+        background-size: 230px 70px;
+        padding: 2px;
+        margin-left: 4%;
+        margin-top: 8px;
+        background-color: 0;
+      }
+
+      .div_1 {
+        width: 25%;
+        height: 900px;
+        background-color: antiquewhite;
+        border: none;
+        z-index: 10;
+      }
+      .div_2 {
+        width: 50%;
+        height: 900px;
+        background-color: rgba(26, 181, 171, 0.272);
+        border: none;
+      }
+      .div_3 {
+        width: 25%;
+        height: 900px;
+        background-color: antiquewhite;
+        border: none;
+        z-index: 10;
+      }
+      .main-2 {
+        width: 10%;
+        height: 100px;
+        margin-bottom: 10px;
+        border: none;
+        position: absolute;
+        left: 33%;
+        bottom: -33%;
+      }
+      .text-1 {
+        color: #0e7441;
+        text-shadow: #0e7441, blue, red, 2;
+      }
+      .text-2 {
+        color: blue;
+      }
+      .text-3 {
+        color: #0e7441;
+      }
+      .last {
+        width: 80%;
+        height: 100px;
+        border: none;
+        position: absolute;
+        left: 250%;
+        top: 25px;
+        background-image: url(ann.jpg);
+        background-size: 120px 110px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main_div">
+      <div class="div_1"></div>
+      <div class="div_2">
+        <div class="second-div">
+          <div class="third-div"><h1 class="text">2023</h1></div>
+        </div>
+        <div class="four-div"></div>
+        <div class="five-div"></div>
+        <div class="six-div"></div>
+        <div class="seven-div"></div>
+        <div class="eight-div"></div>
+        <div class="nine-div"></div>
+        <div class="ten-div"></div>
+        <div class="eleven-div"></div>
+        <div class="twelve-div">
+          <img
+            class="image"
+            src="avengers.png"
+            alt="Girl in a jacket"
+            width="200"
+            height="80"
+          />
+          <div class="main-2">
+            <div class="text-1"><b>Thor</b></div>
+            <div class="text-2"><b>Ironman</b></div>
+            <div class="text-3"><b>Hulk</b></div>
+            <hr />
+            <label class="footer"><b>Follow us on</b></label>
+            <label> <img src="fb.png" width="20" hight="10" /> </label>
+            <label> <img src="tt.png" width="20" hight="10" /> </label>
+            <div class="last"></div>
+          </div>
+        </div>
+      </div>
+      <div class="div_3"></div>
+    </main>
+  </body>
+</html>
