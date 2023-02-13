@@ -1,0 +1,22 @@
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-style: double;
+  outline-style: padding;
+  margin: 50px auto;
+}
+.time-table {
+  position: absolute;
+  left: 49.5%;
+  width: 20%;
+  height: 50px;
+  margin: -30px;
+}
+.lunch {
+  position: relative;
+  left: 40%;
+  margin: auto;
+}

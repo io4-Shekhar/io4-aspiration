@@ -9,13 +9,14 @@
     <title>Passport Form</title>
 </head>
 <body>
-    <form action="/action_page.php" autocomplete="on">
+    <section class="main">
+    <form action="action" autocomplete="on">
     <div class="main-container">
     <div class="container">
     <h2 class="passport-application">Passport Application Form</h2>
 <h3 class="heading">Government Of India, Ministry Of External Affairs</h3>
 <div class="img-para">
-<img src="Emblem_of_India.svg.png"alt="" width="14%"height="120px" class="first-img"/>
+<img src="Emblem_of_India.svg.png"alt="" width="15%"height="120px" class="first-img"/>
 <p class="para">Please read the Password instruction and booklet before filling the form.Furnishing of incorrect information/supperssion of information would lead to rejection of application and would attract panel prevision and prescribed under the password act,1967.
     Please produce your original document at the time of submission of the form.All fields marked are(*) to filled mandatory to fill.
 </div>
@@ -45,7 +46,7 @@
 <input type="radio" id="pages" value="pages" name="booklet">
 <label for="36 Pages">36Pages</label>
 <input type="radio" id="pages" value="pages" name="booklet">
-<label for="60psges">60pages</label>
+<label for="60pages">60pages</label>
 </div>
 </div>
 <h3 class="services">Applicant-Details</h3>
@@ -64,7 +65,7 @@
     <option  class="gender" ></option>
 
     <option value="male" id="male" class="gender">Male</option>
-    <option value="fe-male" id="fe-male" class="gender">Female</option>
+    <option value="fe-male" id="female" class="gender">Female</option>
     <option value="other" id="other" class="gender">Others</option>
 </select>
 <br/>
@@ -127,7 +128,7 @@
 <input type="text" type="number" class="id"id="pancard" maxlength="12" minlength="12" allow="capital"  >
 <label for="voter-id" class="required" >Voter ID (If available)</label>
 <input type="text" type="number" id="voter-id"class="id"maxlength="9" minlength="9">
-<br/>
+<br>
 <label for="Employment Type" class="required">Employment Type *</label>
 <select for="employment-type" class="Employment-Type">
     <option value="employment-type" name="employment-type"></option>
@@ -139,6 +140,7 @@
     <option value="employment-type" name="employment-type">Other</option>
     <option value="employment-type" name="employment-type">Retired Government Servant</option><option value="employment-type" name="employment-type">Retired Government Servant</option><option value="employment-type" name="employment-type">Self-Employed</option>
 </select>
+<br>
 <label for="service" class="required">Is either of your parent (in case of minor)/ spouse, a government servant? *</label>
 <select for="government-servant" class="government-servant">
     <option value="government-servant"></option>
@@ -165,7 +167,7 @@
 <input type="text"class="distinguishing-marks" id="mark">
 <br/>
 <label for="aadhar-num" class="required">Aadhaar Number</label>
-<input type="number"class="aadhaar-num" max="12" title="Enter 12 Number"/>
+<input type="number"class="aadhar-num" max="12" title="Enter 12 Number"/>
 <p class="para2">
     I, the holder of above mentioned Aadhaar Number , hereby give my consent to Passport Seva to obtain my Aadhaar Number, Name and
 Fingerprint/Iris for authentication with UIDAI. I have no objection using my identity and biometric information for validation with Aadhaar
@@ -216,7 +218,7 @@ Fingerprint/Iris for authentication with UIDAI. I have no objection using my ide
 <br/>
 <label for="address"  >Village or Town or City *</label>
 <input type="text" type="number" class="id" spellcheck="true" required   >
-<label for="country"   idS="country">Region/Country *</label>
+<label for="country"   ids="country">Region/Country *</label>
 <select for="country" class="id" spellcheck="true">
     <option id="1"></option>
     <option id="1"> India</option>
@@ -232,12 +234,16 @@ Fingerprint/Iris for authentication with UIDAI. I have no objection using my ide
     <option id="11">England</option>
 </select>
 <br/>
+<label for="address"  >State/Province</label>
+<input type="text" type="number" class="idss" spellcheck="true" required id="address"  >
+<label for="address"  >District/county</label>
+<input type="text" type="number" class="ids" spellcheck="true" required  id="address" >
 <div class="phn-num">
 <label for="zip-code" >Zip Code</label>
 <input type="number" class="code" value="code" class="code" minlength="6"maxlength="6" title="Enter Only Six number">
 <label for="number"  id="tel">Mobile Number*</label>
 <input type="tel" class="code" value="91-" autocomplete="on" pattern="[0-9]{5}-[0-9]{5}" required minlength="13"maxlength="13">
-<label for="tel-phone"  id="tel">Telephone</label>
+<label for="tel-phone"  id="tel">Telephone Number</label>
 <input type="tel" value="0-" class="code" minlength="13"maxlength="13" >
 </div>
 <br/>
@@ -489,6 +495,8 @@ Fingerprint/Iris for authentication with UIDAI. I have no objection using my ide
     <input type="Valid&Save" type="button" value="VALIDATE & SAVE" class="valid">
 <br/>
 </div>
+
 </form>
+</section>
 </body>
 </html>

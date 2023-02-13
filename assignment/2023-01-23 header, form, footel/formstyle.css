@@ -3,34 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body {
+  width: 100%;
+  border-color: 2px solid black;
+}
 .main-container {
   margin: auto;
-  width: 65%;
+  width: 80%;
   border: 1px solid black;
-  height: 41rem;
 }
 
-.icon {
-  font-size: 21px;
+.icon-1 {
+  height: 25px;
+  width: 25px;
 }
+.navbar1 {
+  width: 100%;
+}
+.icon {
+  font-size: 20px;
+}
+
 .navbar2 {
-  margin-left: 28%;
+  margin-left: 33%;
 }
 .btn,
 .circle,
 .bell,
 .flask {
-  margin-left: 14px;
+  margin-left: 10px;
 }
 .btn {
-  background-color: rgb(224, 214, 214);
+  background-color: #fff;
   border-radius: 10px;
-  border: 1px solid rgb(161, 121, 121);
+  border: 1px solid rgb(249, 246, 246);
 }
 .upgrade {
-  height: 38px;
-  margin-top: 2px;
-  padding-top: 12px;
+  height: 39px;
+  margin: 2px;
+  padding-top: 3px;
   width: 88px;
   border-radius: 8px;
   background-color: blue;
@@ -38,33 +49,38 @@
   font-size: 19px;
   border: none;
 }
+.magifiedglass {
+  margin-bottom: -15px;
+  margin-top: -20px auto;
+}
 .btn {
   width: 21%;
-  height: 39px;
+  height: 40px;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 15px;
   padding-top: 0px;
+  margin: auto;
   border: 2px solid #eee2e2;
   color: grey;
 }
-
-/* second navbar start */
 .navbar3,
 a {
-  width: 80%;
+  width: 100%;
   margin-left: 15px;
   margin: 8px;
   font-size: 17px;
   text-decoration: none;
-  color: #000;
+  color: rgb(84, 83, 83);
 }
-/* third content start */
+.under-line {
+  color: black;
+}
 .main-content {
   height: 38.5rem;
   background-color: rgb(238, 128, 84);
 }
 hr {
-  border: 2px solid rgb(224, 208, 208);
+  border: 2px solid #fff;
   width: 80%;
   margin: auto;
   margin-top: 20px;
@@ -73,83 +89,109 @@ hr {
   width: 75%;
   margin: auto;
   height: 38.5rem;
-  background-color: rgba(214, 77, 8, 0.953);
+  background-color: rgba(232, 89, 18, 0.953);
 }
 h3 {
   color: white;
-  font-size: 33px;
+  font-size: 21px;
   margin: auto;
-  width: 80%;
-  margin-top: 7%;
+  width: 82%;
+  margin-top: 5%;
 }
+
 .main {
-  width: 64%;
+  width: 100%;
   color: white;
   font-size: 18px;
 }
 .first-label {
-  margin-left: 36%;
+  margin-left: 21%;
 }
-.second-label,
-.fourth-label {
-  margin-left: 31%;
-}
-.third-label {
-  margin-left: 28%;
-}
-.fifth-label {
+.second-label {
   margin-left: 18%;
 }
-.form-btn {
-  margin-left: 36%;
+.fourth-label {
+  margin-left: 17.8%;
 }
-.form-btn,
+.third-label {
+  margin-left: 16.8%;
+}
+.fifth-label {
+  margin-left: 10.5%;
+}
+.form-btn {
+  width: 100%;
+  margin-left: 32.5%;
+}
 .clear-btn {
-  width: 42%;
+  width: 20%;
+  padding-left: 50px;
+  height: 30px;
+  margin: auto;
   color: rgba(232, 89, 18, 0.953);
-  border-radius: px;
+  border-radius: 2px;
 }
 .create-btn {
+  margin-left: auto;
+  padding-left: 50px;
+  width: 20%;
+  height: 30px;
   background: rgb(242, 237, 232);
   color: rgba(232, 89, 18, 0.953);
   border-radius: 2px;
 }
 
 input {
-  width: 43%;
-  height: 30px;
-  font-size: 15px;
+  width: 38%;
+  height: 25px;
+  font-size: 11px;
   background: rgb(242, 237, 232);
   border: none;
-}
-#placeholder {
-  width: 50px auto;
+  margin-right: 19%;
 }
 
 .png-img {
-  width: 100%;
+  width: 90%;
   margin: auto;
 }
 
 h6 {
-  width: 27%;
+  width: 26%;
   margin-top: -47px;
   margin-left: 75%;
 }
 .png-img {
-  margin-left: 31px;
+  margin-left: 20px;
 }
 h5 {
   color: rgb(42, 42, 229);
   margin-left: 78%;
 }
-.second-footer {
+.last-content {
+  width: 100%;
   height: 50px;
   background-color: purple;
 }
 
-h4 {
-  width: 30%;
-  margin-left: 39px;
-  margin-top: 20px;
+.heading {
+  position: relative;
+  top: 30%;
+  margin-left: 30px;
+  margin-top: auto;
+  font-size: 20px;
+  color: #fff;
+}
+.icons-class {
+  margin-left: 60%;
+}
+.icons-class,
+.last-img {
+  position: relative;
+  top: -20%;
+  float: right;
+  margin-right: 15px;
+}
+.footer-first {
+  width: 100%;
+  height: 60px;
 }

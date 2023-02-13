@@ -3,11 +3,20 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.main {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 10px 20px black;
+}
 .main-container {
   margin: auto;
-  width: 77%;
+  width: 95%;
+  height: 3760px;
   font-size: 20px;
-  border: 1px solid black;
+  border: none;
 }
 
 .passport-application {
@@ -16,7 +25,8 @@
 }
 .container {
   border: 1px solid rgb(229, 156, 168);
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: -9px;
 }
 .option {
   margin-left: 13%;
@@ -61,7 +71,7 @@ img {
   margin-left: 15%;
 }
 .required {
-  font-weight: 900;
+  font-weight: 800;
 }
 .button {
   width: 100%;
@@ -74,8 +84,8 @@ img {
 }
 .radio-button1 {
   display: inline-block;
-  margin-left: 17.4%;
-  padding-top: 10px;
+  margin-left: 17%;
+  padding-top: 9px;
 }
 input {
   font-size: 20px;
@@ -105,7 +115,7 @@ input {
 }
 .radio-button3 {
   display: inline-block;
-  margin-left: 16.4%;
+  margin-left: 17.2%;
   padding-top: 10px;
 }
 
@@ -124,7 +134,7 @@ input {
 .qualification,
 .category,
 .distinguishing-marks,
-.aadhaar-num {
+.aadhar-num {
   width: 10%;
   border: 1px solid black;
   height: 27px;
@@ -134,15 +144,15 @@ input {
 }
 .Citizenship-of-India-by,
 .id,
-.aadhaar-num,
+.aadhar-num,
 .qualification {
   width: 20%;
 }
 .Employment-Type {
-  width: 82%;
+  width: 81%;
 }
 .distinguishing-marks {
-  width: 77%;
+  width: 75%;
 }
 .para2 {
   margin-top: 10px;
@@ -159,7 +169,7 @@ input {
   border: 1px solid black;
 }
 .house-no {
-  width: 78%;
+  width: 77%;
   background-color: rgba(211, 227, 241, 0.812);
   height: 27px;
   margin-top: 11px;
@@ -241,8 +251,20 @@ input {
   width: 40%;
 }
 .valid {
-  width: 16%;
-  height: 32px;
+  width: 17%;
+  height: 31px;
   background-color: rgb(186, 177, 177);
-  padding: 1px;
+  padding: 4px;
+  margin: auto;
+}
+.ids {
+  width: 20%;
+  margin-top: 5px;
+  margin-left: 45px;
+  background-color: rgba(211, 227, 241, 0.812);
+}
+.idss {
+  width: 20%;
+  margin-left: 110px;
+  background-color: rgba(211, 227, 241, 0.812);
 }
