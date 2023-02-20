@@ -289,6 +289,20 @@ button {
   width: 100px;
   transition: width 2s;
 }
+.img-16:hover {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  transform: rotate(360deg);
+  transform-origin: 20% 40%;
+}
+.img-17:hover {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  transform: rotatey(360deg);
+  transform-origin: 20% 40%;
+}
 
 .footer {
   width: 95%;
@@ -307,19 +321,19 @@ button {
 .footer-image-1 p {
   color: #ffffff;
 }
-.ul-list {
+.list {
   list-style-type: none;
   padding: 10px 10px;
 }
-.ul-list li {
+.list li {
   padding: 4px;
 }
-.ul-list li a {
+.list li a {
   text-decoration: none;
   color: #ffffff;
 }
-/* --------------hover section--start------------ */
-.ul-list li a:hover {
+
+.list li a:hover {
   text-decoration: underline;
 }
 .img-footer {
