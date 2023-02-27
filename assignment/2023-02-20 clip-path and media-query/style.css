@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* main section start */
+.main {
+  background-color: black;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* first div start */
+.div-1 {
+  margin: auto;
+  width: 40%;
+  height: 350px;
+  background-color: red;
+}
+.div-1 {
+  clip-path: polygon(
+    41% 35%,
+    0 36%,
+    35% 59%,
+    15% 100%,
+    53% 75%,
+    91% 100%,
+    72% 58%,
+    100% 33%,
+    61% 35%,
+    51% 0
+  );
+}
+/* first div end */
+/* second div start */
+.div-2 {
+  margin: auto;
+  width: 40%;
+  height: 350px;
+  background-color: red;
+}
+.div-2 {
+  clip-path: polygon(
+    10% 20%,
+    40% 20%,
+    40% 0%,
+    60% 0%,
+    60% 20%,
+    90% 20%,
+    90% 40%,
+    60% 40%,
+    60% 100%,
+    40% 100%,
+    40% 40%,
+    10% 40%
+  );
+}
+/* second div end */
+/* third div start */
+.div-3 {
+  clip-path: polygon(
+    0% 0%,
+    25% 0%,
+    50% 60%,
+    75% 0%,
+    100% 0%,
+    65% 100%,
+    35% 100%
+  );
+  margin-top: 10px;
+  margin: auto;
+  background-color: red;
+  width: 30%;
+  height: 350px;
+}
+/* third div end */
+/* fourth div start */
+.div-4 {
+  clip-path: polygon(
+    10% 0%,
+    30% 0%,
+    50% 40%,
+    70% 0%,
+    90% 0%,
+    90% 100%,
+    70% 100%,
+    70% 40%,
+    50% 80%,
+    30% 40%,
+    30% 100%,
+    10% 100%
+  );
+  margin-top: 10px;
+  margin: auto;
+  background-color: rgb(220, 103, 13);
+  width: 30%;
+  height: 350px;
+}
+/* fourth div end */
+/* fifth div start */
+.div-5 {
+  clip-path: polygon(
+    10% 0%,
+    30% 0%,
+    70% 60%,
+    70% 0%,
+    90% 0%,
+    90% 100%,
+    70% 100%,
+    30% 40%,
+    30% 100%,
+    10% 100%
+  );
+  margin: auto;
+  margin-top: 10px;
+  background-color: red;
+  width: 30%;
+  height: 350px;
+}
+/* fifth div end */
+/* six div start */
+.div-6 {
+  clip-path: polygon(
+    20% 0%,
+    0% 20%,
+    30% 50%,
+    0% 80%,
+    20% 100%,
+    50% 70%,
+    80% 100%,
+    100% 80%,
+    70% 50%,
+    100% 20%,
+    80% 0%,
+    50% 30%
+  );
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 40%;
+  height: 350px;
+  background-color: red;
+}
+/* six div end */
+/* seven div start */
+.div-7 {
+  margin-right: 10px;
+  clip-path: polygon(0% 60%, 15% 50%, 30% 70%, 80% 10%, 90% 20%, 30% 100%);
+  background-color: red;
+  width: 40%;
+  height: 350px;
+}
+/* seven div end */
+/* main section end*/
