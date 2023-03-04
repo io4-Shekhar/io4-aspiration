@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+/* main container start */
+.container {
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(229, 241, 241);
+  width: 90%;
+  height: 80%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 90px 75px 330px;
+
+  /*grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    row-gap: 10px;
+    column-gap: 10px;*/
+
+  row-gap: 10px;
+  column-gap: 10px;
+}
+/* child section start */
+.child {
+  background-color: rgb(146, 136, 136);
+}
+/* child-1 section start */
+.child-1 {
+  font-size: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.text-1 {
+  font-size: 3rem;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.nav {
+  font-size: 3rem;
+  text-align: end;
+  margin-top: -35px;
+  margin-right: 20%;
+}
+/* child-1 section end */
+/* child-2 section start */
+.child-2 {
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+}
+/* child-1 section end */
+/* child-3 section start */
+.child-3 {
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.text-2 {
+  font-size: 3rem;
+  margin-top: 15px;
+}
+/* child-3 section end */
+/* child-4 section start */
+.child-4 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.text-3 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 35%;
+}
+/* child-4 section end */
+/* child-5 section start */
+
+.child-5 {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.text-4 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 35%;
+}
+/* child-5 section end */
+/* child-6 section start */
+
+.child-6 {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.text-5 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 35%;
+}
+/* child-6 section end */
+/* child-7 section start */
+.child-7 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+/* child-7 section end */
+
+/* child section end*/
+
+/* main container end */
