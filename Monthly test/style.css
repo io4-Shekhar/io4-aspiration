@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 1200px;
+  background-color: white;
+  font-family: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+}
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  box-shadow: 1px 5px 4px #d9dde2;
+  background-color: white;
+}
+.flipkart {
+  width: 150px;
+  height: 50px;
+}
+.f {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.text-1 {
+  margin-top: 15px;
+  color: #0066cc;
+  font-size: 0.8rem;
+}
+.text-2 {
+  font-size: 1.2rem;
+  color: #0066cc;
+}
+.header-line {
+  color: rgb(132, 129, 129);
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+}
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+.button1 {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(255 204 0);
+  color: black;
+  margin-left: 530px;
+  margin-right: 0px;
+  box-shadow: 0px 0px 4px black;
+}
+.button2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 4px black;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #0066cc;
+}
+
+.button3 {
+  margin-top: 66px;
+  width: 100%;
+  height: 60px;
+  color: black;
+  background-color: #d9dde2;
+  font-size: 1.5rem;
+}
+.first-logo {
+  margin-top: 25px;
+  margin-left: 30%;
+}
+
+.line-1 {
+  margin-left: 85px;
+  margin-top: -40px;
+  font-size: 1.5rem;
+}
+.line-2 {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 11%;
+}
+.hr {
+  width: 90%;
+  margin-left: 5%;
+}
+.line-3 {
+  margin-left: 30%;
+  font-size: 1.5rem;
+}
+.GST {
+  justify-content: space-around;
+  width: 85%;
+  height: 230px;
+  margin-top: 20px;
+  margin-left: 7.5%;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+.gst-1,
+.gst-2,
+.gst-3,
+.gst-4 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.gst-1 {
+  margin-left: 20px;
+}
+.gst-text-1 {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.gst-text-2 {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.image-1 {
+  margin-left: 95px;
+  margin-top: 20px;
+  justify-content: space-around;
+  width: 35%;
+  height: 90px;
+  background-color: #e5e9ee;
+  border-radius: 50%;
+}
+
+.image-2 {
+  margin-left: 85px;
+  margin-top: 20px;
+  justify-content: space-around;
+  width: 35%;
+  height: 90px;
+  background-color: #e5e9ee;
+  border-radius: 50%;
+}
+
+.image-3 {
+  margin-left: 85px;
+  margin-top: 20px;
+  justify-content: space-around;
+  width: 35%;
+  height: 90px;
+  background-color: #e5e9ee;
+  border-radius: 50%;
+}
+
+.image-4 {
+  margin-left: 70px;
+  margin-top: 20px;
+  justify-content: space-around;
+  width: 35%;
+  height: 90px;
+  background-color: #e5e9ee;
+  border-radius: 50%;
+}
+.img-1 {
+  margin-left: -3px;
+  margin-top: -12px;
+  rotate: -35deg;
+}
+.img-2 {
+  margin-top: 28px;
+  margin-left: 22px;
+}
+.img-3 {
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.img-4 {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.t1,
+.t4 {
+  margin-left: 35px;
+}
+.t2 {
+  margin-left: 45px;
+}
+.t3 {
+  margin-left: 105px;
+}
+.t5 {
+  margin-left: 28px;
+}
+.t6 {
+  margin-left: 95px;
+}
+.t7 {
+  margin-left: 55px;
+}
+.t8 {
+  margin-left: 35px;
+}
+.t9 {
+  margin-left: 20px;
+}
+.t10 {
+  margin-left: 65px;
+}
+.reletive {
+  width: 50px;
+  height: 50px;
+  margin-left: 59%;
+  margin-top: -30px;
+  rotate: 45deg;
+  background-color: #eeeeee;
+}
+.gst-div {
+  margin-left: 7.5%;
+  margin-top: 10px;
+  width: 85%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.gst-div-1 {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 25%;
+}
+
+.gst-div-2 {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 25%;
+}
+
+.gst-div-3 {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 25%;
+}
+.gst-div-4 {
+  margin-top: 20px;
+  margin-left: 75px;
+  width: 25%;
+}
+.tex-1 {
+  margin-left: 20px;
+}
+.tex-2 {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.tex-3 {
+  margin-left: 5px;
+}
+.tex-4 {
+  margin-left: 40px;
+}
+.tex-5 {
+  margin-left: 20px;
+}
+.tex-6 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.tex-9 {
+  margin-left: 70px;
+}
+.tex-10 {
+  margin-left: 20px;
+}
+.tex-11 {
+  margin-top: 10px;
+}
+.tex-13 {
+  margin-left: 55px;
+}
+.tex-14 {
+  margin-top: 10px;
+}
+
+.equal {
+  margin-top: 15px;
+  font-size: 1.7rem;
+}
+.dass {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.shipping {
+  font-size: 1.2rem;
+  margin-left: 10%;
+  width: 80%;
+}
+.fees {
+  font-size: 1.5rem;
+  margin-left: 44%;
+}
+.TEXT {
+  margin-top: 20px;
+}
+.fourth-line {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
