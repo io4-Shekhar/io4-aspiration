@@ -1,0 +1,653 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* main page start*/
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  font-family: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+}
+/* header section start*/
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+}
+.flipkart {
+  width: 150px;
+  height: 50px;
+}
+.f {
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.text-1 {
+  margin-top: 15px;
+  color: #0066cc;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.text-2 {
+  font-size: 1.2rem;
+  color: #0066cc;
+  cursor: pointer;
+}
+.header-line {
+  color: rgb(132, 129, 129);
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+}
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+  margin-left: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+.button1 {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(255 204 0);
+  color: black;
+  margin-left: 520px;
+  margin-right: 0px;
+  box-shadow: 0px 0px 4px black;
+}
+.button2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 4px black;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #0066cc;
+}
+/* header section end */
+
+/* first section start */
+.div-1 {
+  margin-top: 5px;
+  width: 100%;
+  height: 300px;
+  background-color: #00b5db;
+  display: flex;
+  flex-direction: row;
+}
+.div-1-text {
+  margin-top: 5%;
+  margin-left: 10%;
+  color: white;
+  width: 22%;
+  height: 300px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.div-1-text-1 {
+  color: white;
+}
+.div-2 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.div-3 {
+  margin-left: 30px;
+}
+form.example input[type="text"] {
+  padding: 12px;
+  font-size: 15px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+}
+.submit {
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: rgb(255 204 0);
+  border: none;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.div-1-first {
+  font-size: 1.7rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* first section end */
+
+/* second section start */
+.employe {
+  width: 100%;
+  height: 250px;
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: row;
+}
+.emp-1 {
+  margin-top: 50px;
+  margin-left: 6%;
+}
+.pic-1 {
+  border-radius: 5px;
+}
+.emp-1-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.text-a {
+  margin-top: 8px;
+}
+.name {
+  margin-top: 30px;
+}
+.name-1 {
+  margin-top: 58px;
+}
+.name-2 {
+  margin-top: 58px;
+}
+/* second section end */
+
+/* third section start */
+.header-line-1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.bo {
+  cursor: pointer;
+  margin-left: 10%;
+}
+.bo-1 {
+  cursor: pointer;
+  margin-left: 9%;
+}
+.underline {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.line-blue {
+  margin-left: -5px;
+  margin-top: 20px;
+  width: 200px;
+  height: 3px;
+  background-color: #0066cc;
+}
+.header-line-2 {
+  display: flex;
+  flex-direction: row;
+}
+.second-line {
+  margin-left: 15%;
+}
+.second-line-2 {
+  margin-left: 35%;
+}
+.first-video {
+  width: 63%;
+  margin: auto;
+  margin-left: 7rem;
+}
+.box-section {
+  display: flex;
+  flex-direction: row;
+}
+.video {
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.div-4-a {
+  cursor: pointer;
+  width: 28%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.div-4-b {
+  cursor: pointer;
+  width: 28%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.child-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  box-sizing: inherit;
+}
+.child-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 170px;
+  margin-top: 30px;
+}
+.child-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 230px;
+  margin-top: 10px;
+}
+.child-4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 140px;
+  margin-top: 3px;
+}
+.child-1:hover,
+.child-2:hover,
+.child-3:hover,
+.child-4:hover {
+  box-shadow: rgb(193, 199, 208) 1px 1px 5px;
+}
+.text-p {
+  margin-top: 8px;
+}
+.line-one {
+  margin-top: 10px;
+}
+.blue-text {
+  margin-top: 8px;
+  color: #0066cc;
+}
+.space {
+  margin-top: 30px;
+}
+.growth-1 {
+  margin-top: 22px;
+}
+.growth-2 {
+  margin-top: 20px;
+}
+.growth-3 {
+  margin-top: 40px;
+}
+.growth-4 {
+  margin-top: 15px;
+}
+.seller {
+  background-color: #0066cc;
+  color: white;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-left: -25%;
+  margin-top: 40px;
+}
+/* third section end */
+
+/* forth section start */
+.div-5 {
+  width: 100%;
+  height: 130px;
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: row;
+}
+.text-avail {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.blue-text-2 {
+  color: #503ceb;
+  margin-top: 60px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.shopsy-pic {
+  margin-top: 16px;
+  margin-left: 30%;
+}
+.div-6 {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header-text {
+  margin-left: 40%;
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.div-6-child-1 {
+  width: 22%;
+  height: 250px;
+  box-shadow: rgb(193, 199, 208) 1px 1px 5px;
+  border-radius: 20px;
+}
+.div-6-child-2 {
+  width: 22%;
+  height: 250px;
+  box-shadow: rgb(193, 199, 208) 1px 1px 5px;
+  border-radius: 20px;
+}
+.div-6-child-3 {
+  width: 22%;
+  height: 250px;
+  box-shadow: rgb(193, 199, 208) 1px 1px 5px;
+  border-radius: 20px;
+}
+.div-6-child-4 {
+  width: 22%;
+  height: 250px;
+  box-shadow: rgb(193, 199, 208) 1px 1px 5px;
+  border-radius: 20px;
+}
+.app-store,
+.play-store {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.app-store:hover {
+  width: 100px;
+  height: 50px;
+}
+.play-store:hover {
+  width: 120px;
+  height: 50px;
+}
+.vann,
+.flip,
+.hub,
+.shop {
+  margin-left: 15px;
+}
+.text-gap {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.child-1-text-bold {
+  margin-left: 20px;
+}
+.btn-3 {
+  margin-top: 25px;
+  margin-left: 43.5%;
+}
+/* forth section end */
+
+/* fifth section start */
+.div-7-child {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+/* fifth section end */
+
+/* six section start */
+.big-font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #c24537;
+  font-size: 3rem;
+  margin-left: 30%;
+}
+.div-8 {
+  width: 100%;
+  height: 360px;
+}
+.header-3 {
+  margin-top: 0px;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 500;
+}
+.div-8-child {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px 4%;
+}
+.seller-event {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  margin: 10px 0px;
+}
+/* six section start */
+
+/* seven section start */
+.box-1 {
+  cursor: pointer;
+  margin-left: 5%;
+}
+.box-2 {
+  height: 150px;
+  cursor: pointer;
+}
+.box-3 {
+  margin-right: 5%;
+  cursor: pointer;
+}
+.div-9 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(240, 239, 241);
+}
+.box-4 {
+  margin-top: 0px;
+  font-size: 29px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+.box-5 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 5%;
+}
+.text-5 {
+  width: 18%;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+/* seven section end */
+
+/* eight section start */
+.div-10 {
+  margin-left: 10%;
+  width: 81%;
+  height: 300px;
+}
+.header-4 {
+  margin-top: 20px;
+  font-size: 29px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+.para {
+  margin-top: 20px;
+}
+.color {
+  color: #0066cc;
+  cursor: pointer;
+}
+/* eight section end */
+
+/* footer section start */
+.footer {
+  width: 100%;
+  height: 340px;
+  background-color: #0066cc;
+}
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4,
+.footer-5,
+.footer-6 {
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-1 {
+  margin-left: 5%;
+}
+
+.footer-2 {
+  margin-left: 8%;
+}
+
+.footer-3 {
+  margin-left: 8%;
+}
+
+.footer-4 {
+  margin-left: 2%;
+}
+
+.footer-5 {
+  margin-left: 4%;
+}
+
+.footer-6 {
+  margin-left: 8%;
+}
+.footer-first {
+  display: flex;
+  flex-direction: row;
+}
+.footer-second {
+  margin-top: 3%;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: row;
+}
+.appstore,
+.googleplay {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.service-1,
+.Resources-1,
+.faq-1,
+.contact-1 {
+  margin-top: 10px;
+}
+.flipkart1 {
+  width: 150px;
+  height: 50px;
+}
+.f2 {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.text1 {
+  margin-top: 15px;
+  color: white;
+  font-size: 0.8rem;
+}
+.text2 {
+  font-size: 1.2rem;
+  color: white;
+}
+.copyright {
+  color: white;
+}
+.policy {
+  margin-left: 10%;
+  color: white;
+}
+.terms {
+  margin-left: 3%;
+  color: white;
+}
+
+.images-1 {
+  margin-left: 15%;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+}
+.youtube {
+  margin-left: -7px;
+  margin-top: -7px;
+  cursor: pointer;
+}
+.images-2 {
+  margin-left: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+}
+.twitter {
+  margin-top: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.images-3 {
+  margin-left: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+}
+.facebook {
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.footer ul {
+  cursor: pointer;
+}
+/* footer section end */
+
+/* main page end*/
