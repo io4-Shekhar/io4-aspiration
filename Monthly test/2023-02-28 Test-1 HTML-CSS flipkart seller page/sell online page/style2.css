@@ -56,6 +56,10 @@
   margin-top: 20px;
   cursor: pointer;
 }
+.decoration {
+  text-decoration: none;
+  color: rgb(132, 129, 129);
+}
 .button {
   border: none;
   color: white;
